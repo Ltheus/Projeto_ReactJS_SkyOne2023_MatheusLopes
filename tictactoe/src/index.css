@@ -15,9 +15,10 @@ ol, ul {
 }
 .square {
     background-color: rgb(226, 198, 160);
-    border: 1px solid #999;
+    border: 1px solid #000000;
     float: left;
-    font: 24px bold;
+    font-size: 24px;
+    font-weight: bold;
     line-height: 34px;
     height: 34px;
     width: 34px;
