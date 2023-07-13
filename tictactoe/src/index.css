@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+    font: 14px 'Lilita One', cursive;
+    margin: 20px;
+    background-color: rgb(226, 198, 160);
+}
+
+ol, ul {
+    list-style: none;
+}
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.status {
+    margin-bottom: 10px;
+}
+.square {
+    background-color: rgb(226, 198, 160);
+    border: 5px dotted #7e5632;
+    color: #7e5632;
+    float: left;
+    font-size: 120px;
+    font-weight: bold;
+    font-family: 'Lilita One', cursive;
+    line-height: 34px;
+    height: 136px;
+    width: 136px;
+    margin-right: -5px;
+    margin-top: -5px;
+    padding: 0;
+    text-align: center;
+}
+.game {
+    display: flex;
+    flex-direction: row;
+}
+.game-info {
+    margin-left: 30px;
+    align-items: center;
+    text-align: center;
+    color: #7e5632;
+    font-size: 30px;
+}
+.button{
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    outline: solid #7e5632;
+    border: #7e5632;
+    background-color: rgb(226, 198, 160);
+    color: #7e5632;
+    border-radius: 15px;
+    margin: 5px;
+    width: 200px;
+}
